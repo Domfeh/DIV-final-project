@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My website: Mary</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" >
+   <link rel="stylesheet" type="text/css" href="index.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>     
+          
+   <script type="text/javascript">
+    
+     let image1 = new Image()
+      image1.src="ppc.jpg"
+
+      let image2 = new Image()
+      image2.src="workers.jpg"
+
+      let image3 = new Image()
+      image3.src="pic.jpg"
+
+  </script>
+
+</head>
+<body>
+	<div class="navtop">
+  		<a class="active" href="index.html">Home</a>
+  		<a href="About.html"> About Us </a>
+  		<a href="contact.html">Contact</a>
+      <button type="button" class="btn btn-info btn-lg turned-button" data-toggle="modal" data-target="#myModal"id="ad"> <a href="upload.html">Upload</a></button> 
+    
+   <div class="search-container">
+    	<form action="">
+      		<input type="text"  name="Search">
+      		<button type="submit">Search</button>
+    	</form>
+   </div>
+</div>
+    <div class="typewriterbody">
+        <div class="typewriter">
+            <h1> REUSE REDUCE RECYCLE</h1>
+        </div>  
+     </div>
+ <div class="container1">
+       <img src="ppc.jpg" name="slide" style="height:60vh;width:100vw">
+     <script type="text/javascript">
+          let step = 1
+          function slideit(){
+          document.images.slide.src=eval("image"+step+".src")
+          if(step<3)
+          step++
+          else
+         step=1
+
+         setTimeout("slideit()",2500)
+         }
+
+  
+         slideit()
+
+    </script>
+ </div>
+     <div class="container2">
+           <P id="ins"> Gather your waste in categories.Example:glass bottles,sachet and many more.Click on the upload button on the website,fill the form and submit.Relax, we will call</P>
+    
+          <footer>COPYRIGHT&copy; 2018 DIAMOND RECYCLE CENTER.ALL RIGHTS RESERVED</footer>
+     </div>
+
+  </body>
+  </html>
+

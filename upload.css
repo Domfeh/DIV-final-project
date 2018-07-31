@@ -1,0 +1,97 @@
+
+
+     a{
+         color:#21ddf2;
+       }
+
+
+   #searchform{
+                background-color:#CACDCD;
+                 border-radius:1.875em;
+                  margin-left:12.5em;
+                   height:3.125em;
+                    width:35%;
+                    text-align:center;
+                 }
+
+        .navtop {
+                  margin: 0;
+                 overflow: hidden;
+                 background-color: green;
+                 font-family: Lato,sans-serif;
+                 }
+
+      .navtop a {
+                   float: left;
+                   display: block;
+                    color: black;
+                    text-align: center;
+                     padding: 0.875em 1em;
+                     text-decoration: none;
+                     font-size: 1.063em;
+                    }
+
+           .navtop a:hover {
+                              background-color: #ddd;
+                              color: black;
+                            }
+
+          .navtop a.active {
+                             background-color: green ;
+                             color: white;
+                            }
+
+    .navtop .search-container {
+                                float: right;
+                              }
+
+
+
+    .navtop input[type=text] {
+                               padding: 0.375em;
+                               margin-top: 0.5em;
+                               font-size: 1.063em;
+                               border: none;
+                               border-radius: 1.563em;
+                              }
+
+.navtop .search-container button {
+                                  float: right;
+                                   padding: 0.375em;
+                                   margin-top: 0.5em;
+                                   margin-right: 1em;
+                                  background: #ddd;
+                                   font-size: 1.063em;
+                                   border: none;
+                                   cursor: pointer;
+                                  border-radius: 1.25em;
+                                }
+
+
+.navtop .search-container button:hover {
+                                         background: lightgreen;
+                                       }
+
+
+ #ad{
+    background: green;
+  }
+
+  
+
+
+
+html,
+body {
+    height: 100%;
+}
+
+.container 
+{
+    height: 100%;
+    width:100%;
+    background-image: url("ppc.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;    
+}
+
